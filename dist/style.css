@@ -2,3 +2,34 @@
 
 @media(max-width:760px){.home-intro,.home-links{display:none}.home{gap:14px}.home .rail-help{padding:4px 0}.topbar{gap:8px}.topbar #location{font-size:12px}.top-actions .avatar{display:none}.top-actions{flex-shrink:0}.home .starter{min-height:250px}}
 .primary{text-decoration:none}
+
+/* Motion makes the starting choice and action feedback visible. */
+.intent-label{display:flex;align-items:center;gap:12px}.intent-label svg{width:22px;height:22px}.icon{transform-origin:center;transition:transform .2s var(--ease)}
+.nav-link:hover .icon,.nav-link:focus-visible .icon{animation:icon-nod .55s var(--ease)}
+.nav-link[aria-current=page] .icon{animation:icon-arrive .45s var(--ease)}
+.primary:hover .icon-arrow,.primary:focus-visible .icon-arrow,.home-link:hover .icon-arrow{transform:translateX(5px)}
+.intent:active,.primary:active,.item:active{transform:scale(.98)}
+.intent[aria-pressed=true] .intent-label .icon{animation:icon-arrive .5s var(--ease)}
+.motion-scene{position:relative;display:grid;place-items:center;width:112px;height:100px;flex-shrink:0}
+.starter-top{min-height:100px}.starter-symbol{width:60px;height:60px;background:#faf8f2;border:1px solid #97c7b1;z-index:1;animation:idea-float 3.4s ease-in-out infinite}.starter-symbol svg{width:30px;height:30px}
+.orbit{position:absolute;width:92px;height:78px;border:1px dashed #76a88f;border-radius:50%;animation:orbit-turn 16s linear infinite}
+.orbit-two{width:76px;height:96px;border-style:solid;opacity:.45;animation-direction:reverse;animation-duration:22s}
+.orbit-one:after{content:"";position:absolute;width:8px;height:8px;border-radius:50%;background:#d9573b;left:10px;top:7px}
+.scene-spark{position:absolute;color:#b5412c;font-size:21px;animation:spark-breathe 3.4s ease-in-out infinite}.spark-one{top:0;right:8px}.spark-two{bottom:0;left:4px;animation-delay:-1.7s}
+.symbol-code svg{animation:code-breathe 3.4s ease-in-out infinite}.symbol-debug svg{animation:debug-scan 3.4s ease-in-out infinite}
+.starter-flow span{animation:step-cue 4.8s ease-in-out infinite;animation-delay:calc(var(--step) * 1.6s)}
+.copy-confirmed .icon-check path{stroke-dasharray:30;stroke-dashoffset:0;animation:draw-check .35s ease-out}
+#motion:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#b5412c;margin-right:7px;animation:spark-breathe 2s ease-in-out infinite}
+.no-motion #motion:before{background:#596861}
+@keyframes idea-float{0%,100%{transform:translateY(3px) rotate(-4deg)}50%{transform:translateY(-5px) rotate(4deg)}}
+@keyframes orbit-turn{to{transform:rotate(360deg)}}
+@keyframes spark-breathe{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes code-breathe{0%,100%{transform:scale(.9)}50%{transform:scale(1.1)}}
+@keyframes debug-scan{0%,100%{transform:translateX(-3px)}50%{transform:translateX(3px)}}
+@keyframes step-cue{0%,30%,100%{transform:translateY(0)}12%{transform:translateY(-4px)}}
+@keyframes icon-nod{0%,100%{transform:rotate(0)}35%{transform:rotate(-14deg) scale(1.15)}70%{transform:rotate(8deg)}}
+@keyframes icon-arrive{from{transform:scale(.65) rotate(-16deg)}to{transform:scale(1) rotate(0)}}
+@keyframes draw-check{from{stroke-dashoffset:30}to{stroke-dashoffset:0}}
+.motion-paused *,.page-hidden *,.page-hidden *:before{animation-play-state:paused!important}
+@media(max-width:760px){.motion-scene{width:80px;height:72px}.starter-top{min-height:72px}.starter-symbol{width:46px;height:46px}.starter-symbol svg{width:25px;height:25px}.orbit{width:70px;height:56px}.orbit-two{width:54px;height:70px}.intent-label{flex-direction:column;align-items:flex-start;gap:6px}.intent-label svg{display:block;width:19px;height:19px}.intent{min-height:78px}}
+@media(prefers-reduced-motion:reduce){#motion:before{background:#596861}}

@@ -85,6 +85,16 @@
         "name": "reduced-motion",
         "value": "animation:none; transition:none; scroll-behavior:auto",
         "purpose": "OS preference or explicit toggle; JS starter animation also skips."
+      },
+      {
+        "name": "starter-illustration",
+        "value": "3.4s float; 16s and 22s orbits",
+        "purpose": "Animated idea, code, and debugging symbols tied to the selected intent; pause offscreen and when hidden."
+      },
+      {
+        "name": "action-feedback",
+        "value": "350ms check draw; 450\u2013550ms icon response",
+        "purpose": "Confirm copy and acknowledge navigation and intent choices."
       }
     ],
     "breakpoints": [

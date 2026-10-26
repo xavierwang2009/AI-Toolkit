@@ -211,3 +211,6 @@ The explicit Motion on/off control removes CSS animation and transition and prev
 - Don’t add shadows to the current flat surface system without a deliberate design change.
 - Don’t use animation to delay access to a control or instruction.
 - Don’t present Toolkit adaptations as upstream authorship.
+
+### Interactive motion
+The home starter uses a floating intent icon, rotating orbit lines, and sequential step cues. Changing the starting choice swaps idea, code, and debugging illustrations. Navigation icons respond to hover and keyboard focus; primary arrows shift toward the destination and copied prompts draw a checkmark. Loops pause when the starter leaves the viewport or the document is hidden. Motion off and OS reduced motion disable animations.
