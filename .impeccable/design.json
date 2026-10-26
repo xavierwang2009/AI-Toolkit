@@ -168,7 +168,7 @@
   ],
   "narrative": {
     "northStar": "The Focused Workspace",
-    "overview": "Fresh Studio uses deep teal navigation, a cream workspace, mint guidance panels, and coral selected actions. Dark coral keeps small interactive text readable. The focused workspace uses deep teal for orientation, mint for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.\n\nSystem UI typography is intentional for Operate mode, with Read behavior inside lessons. Color, borders, and spacing establish hierarchy without decorative elevation. The implementation uses inline SVG interface icons; existing PNG app icons predate this task and remain unchanged. No generated raster imagery shipped in this redesign.",
+    "overview": "Fresh Studio uses deep teal navigation, a cream workspace, mint guidance panels, and coral selected actions. Dark coral keeps small interactive text readable. The focused workspace uses deep teal for orientation, mint for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.\n\nSystem UI typography is intentional for Operate mode, with Read behavior inside lessons. Color, borders, and spacing establish hierarchy without decorative elevation. The implementation uses inline SVG interface icons; Spark X is the approved identity, implemented in SVG with matching rendered PNG app icons.",
     "keyCharacteristics": [
       "Persistent navigation and visible selection.",
       "Flat surfaces with tonal separation.",

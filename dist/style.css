@@ -35,3 +35,5 @@
 @media(prefers-reduced-motion:reduce){#motion:before{background:#596861}}
 
 .prompt-options{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.prompt-options .filter{border:1px solid var(--line);padding:10px 14px}.prompt-options+.note{margin-top:10px}
+
+img.brand-mark,img.avatar{display:block;object-fit:contain;flex-shrink:0;border-radius:22%}
