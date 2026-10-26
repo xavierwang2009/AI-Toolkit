@@ -6,7 +6,7 @@ Website: https://xavier-ai-toolkit.lx2rice.chatgpt.site
 
 ## Source files
 
-- `dist/`: complete PWA source, including HTML, inline CSS and JavaScript, icons, app manifest and offline service worker.
+- `dist/`: complete PWA source, including HTML, CSS and JavaScript, icons, app manifest and offline service worker.
 - `skills/`: all 10 skill instructions, copied verbatim from the website.
 - `projects/`: all 3 project challenge guides, copied verbatim from the website.
 - `.openai/hosting.json`: existing ChatGPT Sites hosting configuration.
@@ -44,8 +44,16 @@ Open http://localhost:8000. Serve `dist` at the domain root; the app uses root-r
 
 The website retains links to original learning resources from Datawhale, automata, filipecalegario, KhazP, EnzeD and OpenAI. These external repositories and skill collections are not bundled here; their materials belong to their respective creators.
 
-The Markdown instructions mirror the prompts in `dist/index.html`. Keep both in sync when editing.
+The Markdown instructions mirror the prompts in `dist/data.js`. Keep both in sync when editing.
 
 ## Source-based learning guide
 
 [Learn from the best](LEARNING-GUIDE.md) contains six rewritten lessons, practical exercises, and reusable prompts with source attribution. The same lessons are available in the website’s Resources section and cached with the PWA. [Research notes](RESOURCE-NOTES.md) record the reviewed sources.
+
+## Interactive workspace
+
+Home offers three starting choices. Skills provides search, level filters and prompt copying. Projects presents a brief, planning prompt and test guide. Lessons separates key ideas, exercises and prompts. Navigation uses URL fragments, supports browser Back, and changes to a bottom bar on mobile. Motion can be disabled with the toolbar control and respects reduced-motion preferences.
+
+- `dist/data.js`: the 10 original skills, 3 project challenges and 6 attributed lessons.
+- `dist/app.js`: navigation, filters, copy controls, installation and updates.
+- `dist/style.css`: responsive workspace and motion.
