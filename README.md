@@ -45,3 +45,7 @@ Open http://localhost:8000. Serve `dist` at the domain root; the app uses root-r
 The website retains links to original learning resources from Datawhale, automata, filipecalegario, KhazP, EnzeD and OpenAI. These external repositories and skill collections are not bundled here; their materials belong to their respective creators.
 
 The Markdown instructions mirror the prompts in `dist/index.html`. Keep both in sync when editing.
+
+## Source-based learning guide
+
+[Learn from the best](LEARNING-GUIDE.md) contains six rewritten lessons, practical exercises, and reusable prompts with source attribution. The same lessons are available in the website’s Resources section and cached with the PWA. [Research notes](RESOURCE-NOTES.md) record the reviewed sources.
