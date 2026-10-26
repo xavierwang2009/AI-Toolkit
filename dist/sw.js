@@ -1,4 +1,4 @@
-const CACHE = 'xavier-toolkit-v4';
+const CACHE = 'xavier-toolkit-v5';
 const SHELL = ['/style.css', '/data.js', '/app.js', '/icons/icon.svg', '/', '/index.html', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)));
