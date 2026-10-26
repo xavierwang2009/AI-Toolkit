@@ -1,162 +1,52 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-26T04:23:58.917081+00:00",
-  "title": "Design System: Xavier’s AI Toolkit",
+  "title": "Design System: Xavier\u2019s AI Toolkit",
   "extensions": {
     "colorMeta": {
       "ink": {
         "role": "primary",
-        "displayName": "Deep Navy",
-        "tonalRamp": [
-          "oklch(15.00% 0.08030 270.47)",
-          "oklch(26.43% 0.08030 270.47)",
-          "oklch(37.86% 0.08030 270.47)",
-          "oklch(49.29% 0.08030 270.47)",
-          "oklch(60.71% 0.08030 270.47)",
-          "oklch(72.14% 0.08030 270.47)",
-          "oklch(83.57% 0.08030 270.47)",
-          "oklch(95.00% 0.08030 270.47)"
-        ]
+        "displayName": "Deep Teal"
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Slate Text",
-        "tonalRamp": [
-          "oklch(15.00% 0.03333 268.02)",
-          "oklch(26.43% 0.03333 268.02)",
-          "oklch(37.86% 0.03333 268.02)",
-          "oklch(49.29% 0.03333 268.02)",
-          "oklch(60.71% 0.03333 268.02)",
-          "oklch(72.14% 0.03333 268.02)",
-          "oklch(83.57% 0.03333 268.02)",
-          "oklch(95.00% 0.03333 268.02)"
-        ]
+        "displayName": "Slate Text"
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Cool Paper",
-        "tonalRamp": [
-          "oklch(15.00% 0.00674 277.16)",
-          "oklch(26.43% 0.00674 277.16)",
-          "oklch(37.86% 0.00674 277.16)",
-          "oklch(49.29% 0.00674 277.16)",
-          "oklch(60.71% 0.00674 277.16)",
-          "oklch(72.14% 0.00674 277.16)",
-          "oklch(83.57% 0.00674 277.16)",
-          "oklch(95.00% 0.00674 277.16)"
-        ]
+        "displayName": "Warm Cream"
       },
       "white": {
         "role": "neutral",
-        "displayName": "Working White",
-        "tonalRamp": [
-          "oklch(15.00% 0.00000 89.88)",
-          "oklch(26.43% 0.00000 89.88)",
-          "oklch(37.86% 0.00000 89.88)",
-          "oklch(49.29% 0.00000 89.88)",
-          "oklch(60.71% 0.00000 89.88)",
-          "oklch(72.14% 0.00000 89.88)",
-          "oklch(83.57% 0.00000 89.88)",
-          "oklch(95.00% 0.00000 89.88)"
-        ]
+        "displayName": "Working White"
       },
       "line": {
         "role": "neutral",
-        "displayName": "Cool Divider",
-        "tonalRamp": [
-          "oklch(15.00% 0.01684 271.23)",
-          "oklch(26.43% 0.01684 271.23)",
-          "oklch(37.86% 0.01684 271.23)",
-          "oklch(49.29% 0.01684 271.23)",
-          "oklch(60.71% 0.01684 271.23)",
-          "oklch(72.14% 0.01684 271.23)",
-          "oklch(83.57% 0.01684 271.23)",
-          "oklch(95.00% 0.01684 271.23)"
-        ]
+        "displayName": "Soft Divider"
       },
-      "purple": {
+      "accent": {
         "role": "primary",
-        "displayName": "Clear Purple",
-        "tonalRamp": [
-          "oklch(15.00% 0.17236 283.80)",
-          "oklch(26.43% 0.17236 283.80)",
-          "oklch(37.86% 0.17236 283.80)",
-          "oklch(49.29% 0.17236 283.80)",
-          "oklch(60.71% 0.17236 283.80)",
-          "oklch(72.14% 0.17236 283.80)",
-          "oklch(83.57% 0.17236 283.80)",
-          "oklch(95.00% 0.17236 283.80)"
-        ]
+        "displayName": "Coral Text"
       },
       "tint": {
         "role": "secondary",
-        "displayName": "Lavender Wash",
-        "tonalRamp": [
-          "oklch(15.00% 0.02692 292.77)",
-          "oklch(26.43% 0.02692 292.77)",
-          "oklch(37.86% 0.02692 292.77)",
-          "oklch(49.29% 0.02692 292.77)",
-          "oklch(60.71% 0.02692 292.77)",
-          "oklch(72.14% 0.02692 292.77)",
-          "oklch(83.57% 0.02692 292.77)",
-          "oklch(95.00% 0.02692 292.77)"
-        ]
+        "displayName": "Mint Wash"
       },
       "mint": {
         "role": "tertiary",
-        "displayName": "Soft Mint",
-        "tonalRamp": [
-          "oklch(15.00% 0.04501 167.96)",
-          "oklch(26.43% 0.04501 167.96)",
-          "oklch(37.86% 0.04501 167.96)",
-          "oklch(49.29% 0.04501 167.96)",
-          "oklch(60.71% 0.04501 167.96)",
-          "oklch(72.14% 0.04501 167.96)",
-          "oklch(83.57% 0.04501 167.96)",
-          "oklch(95.00% 0.04501 167.96)"
-        ]
+        "displayName": "Soft Mint"
       },
       "selected": {
         "role": "secondary",
-        "displayName": "Selected Lavender",
-        "tonalRamp": [
-          "oklch(15.00% 0.03544 294.51)",
-          "oklch(26.43% 0.03544 294.51)",
-          "oklch(37.86% 0.03544 294.51)",
-          "oklch(49.29% 0.03544 294.51)",
-          "oklch(60.71% 0.03544 294.51)",
-          "oklch(72.14% 0.03544 294.51)",
-          "oklch(83.57% 0.03544 294.51)",
-          "oklch(95.00% 0.03544 294.51)"
-        ]
+        "displayName": "Selected Mint"
       },
       "starter": {
         "role": "secondary",
-        "displayName": "Starter Lavender",
-        "tonalRamp": [
-          "oklch(15.00% 0.03259 293.40)",
-          "oklch(26.43% 0.03259 293.40)",
-          "oklch(37.86% 0.03259 293.40)",
-          "oklch(49.29% 0.03259 293.40)",
-          "oklch(60.71% 0.03259 293.40)",
-          "oklch(72.14% 0.03259 293.40)",
-          "oklch(83.57% 0.03259 293.40)",
-          "oklch(95.00% 0.03259 293.40)"
-        ]
+        "displayName": "Starter Mint"
       },
       "focus": {
         "role": "secondary",
-        "displayName": "Focus Violet",
-        "tonalRamp": [
-          "oklch(15.00% 0.16629 290.48)",
-          "oklch(26.43% 0.16629 290.48)",
-          "oklch(37.86% 0.16629 290.48)",
-          "oklch(49.29% 0.16629 290.48)",
-          "oklch(60.71% 0.16629 290.48)",
-          "oklch(72.14% 0.16629 290.48)",
-          "oklch(83.57% 0.16629 290.48)",
-          "oklch(95.00% 0.16629 290.48)"
-        ]
+        "displayName": "Focus Coral"
       }
     },
     "typographyMeta": {
@@ -214,8 +104,8 @@
       "kind": "button",
       "refersTo": "button-primary",
       "description": "Primary next action.",
-      "html": "<button class=\"ds-primary\">Copy prompt →</button>",
-      "css": ".ds-primary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;background:var(--ink,#202b57);color:var(--white,#fff);border:0;border-radius:10px;padding:14px 19px;font-size:14px;font-weight:650;cursor:pointer;transition:background .15s}.ds-primary:hover{background:#384780}.ds-primary:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "html": "<button class=\"ds-primary\">Copy prompt \u2192</button>",
+      "css": ".ds-primary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;background:var(--ink,#123d3a);color:var(--white,#fff);border:0;border-radius:10px;padding:14px 19px;font-size:14px;font-weight:650;cursor:pointer;transition:background .15s}.ds-primary:hover{background:#24534d}.ds-primary:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Secondary Button",
@@ -223,7 +113,7 @@
       "refersTo": "button-secondary",
       "description": "Secondary or step navigation action.",
       "html": "<button class=\"ds-secondary\">Next skill</button>",
-      "css": ".ds-secondary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#202b57);background:var(--white,#fff);border:1px solid var(--line,#dfe3ef);border-radius:9px;padding:10px 14px;font-size:13px;cursor:pointer}.ds-secondary:hover{background:var(--paper,#f4f5fa)}.ds-secondary:disabled{opacity:.45;cursor:default}.ds-secondary:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-secondary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#123d3a);background:var(--white,#fff);border:1px solid var(--line,#dce3da);border-radius:9px;padding:10px 14px;font-size:13px;cursor:pointer}.ds-secondary:hover{background:var(--paper,#faf8f2)}.ds-secondary:disabled{opacity:.45;cursor:default}.ds-secondary:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Quiet Button",
@@ -231,7 +121,7 @@
       "refersTo": "button-quiet",
       "description": "Compact top-bar control.",
       "html": "<button class=\"ds-quiet\">Motion on</button>",
-      "css": ".ds-quiet{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#202b57);background:none;border:1px solid var(--line,#dfe3ef);border-radius:8px;font-size:12px;padding:8px 11px;cursor:pointer}.ds-quiet:hover{background:#e8eaf4}.ds-quiet:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-quiet{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#123d3a);background:none;border:1px solid var(--line,#dce3da);border-radius:8px;font-size:12px;padding:8px 11px;cursor:pointer}.ds-quiet:hover{background:#eaf0e7}.ds-quiet:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Search Field",
@@ -239,7 +129,7 @@
       "refersTo": "input-search",
       "description": "Search the current collection.",
       "html": "<label class=\"ds-search-label\" for=\"ds-search\">Search skills</label><input class=\"ds-search\" id=\"ds-search\" type=\"search\" placeholder=\"Try design or debug\">",
-      "css": ".ds-search-label{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:block;font-size:12px;margin-bottom:8px;color:var(--ink,#202b57)}.ds-search{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;padding:12px 14px;border:1px solid var(--line,#dfe3ef);border-radius:10px;background:var(--white,#fff);color:var(--ink,#202b57);font-size:14px;caret-color:var(--purple,#6154c7)}.ds-search::placeholder{color:#687187}.ds-search:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-search-label{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:block;font-size:12px;margin-bottom:8px;color:var(--ink,#123d3a)}.ds-search{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;padding:12px 14px;border:1px solid var(--line,#dce3da);border-radius:10px;background:var(--white,#fff);color:var(--ink,#123d3a);font-size:14px;caret-color:var(--accent,#b5412c)}.ds-search::placeholder{color:#647168}.ds-search:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Level Badge",
@@ -247,7 +137,7 @@
       "refersTo": "chip-level",
       "description": "Descriptive learning level.",
       "html": "<span class=\"ds-level\">Builder</span>",
-      "css": ".ds-level{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:inline-flex;font-size:12px;padding:6px 10px;border-radius:20px;background:var(--tint,#eeebff);color:#514196}.ds-level:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-level{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:inline-flex;font-size:12px;padding:6px 10px;border-radius:20px;background:var(--tint,#e5f3ec);color:#245c4b}.ds-level:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Detail Panel",
@@ -255,7 +145,7 @@
       "refersTo": "detail-panel",
       "description": "White working and reading surface.",
       "html": "<article class=\"ds-detail\"><h2>Your starter prompt</h2><p>Personalize the brackets, review the answer, and test the result.</p></article>",
-      "css": ".ds-detail{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;background:var(--white,#fff);color:var(--ink,#202b57);border:1px solid var(--line,#dfe3ef);border-radius:16px;padding:30px}.ds-detail h2{font-size:28px;line-height:1.2;letter-spacing:-.035em;margin:14px 0 12px}.ds-detail p{font-size:15px;line-height:1.65;color:var(--muted,#5d6579);margin:0}.ds-detail:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-detail{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;background:var(--white,#fff);color:var(--ink,#123d3a);border:1px solid var(--line,#dce3da);border-radius:16px;padding:30px}.ds-detail h2{font-size:28px;line-height:1.2;letter-spacing:-.035em;margin:14px 0 12px}.ds-detail p{font-size:15px;line-height:1.65;color:var(--muted,#596861);margin:0}.ds-detail:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     },
     {
       "name": "Desktop Navigation",
@@ -263,12 +153,12 @@
       "refersTo": "navigation",
       "description": "Persistent current-page indicator.",
       "html": "<nav class=\"ds-rail\"><a class=\"ds-nav\" href=\"#skills\" aria-current=\"page\">Skills</a><a class=\"ds-nav\" href=\"#projects\">Projects</a></nav>",
-      "css": ".ds-rail{background:var(--ink,#202b57);padding:20px;display:grid;gap:8px;width:180px}.ds-nav{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:flex;padding:14px 16px;border-radius:10px;color:#d4dbf0;text-decoration:none;font-size:15px;font-weight:600;transition:background .18s,color .18s}.ds-nav:hover{background:#303d6c;color:#fff}.ds-nav[aria-current=page]{background:var(--white,#fff);color:var(--ink,#202b57)}.ds-nav:focus-visible{outline:3px solid var(--focus,#8a72e4);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
+      "css": ".ds-rail{background:var(--ink,#123d3a);padding:20px;display:grid;gap:8px;width:180px}.ds-nav{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:flex;padding:14px 16px;border-radius:10px;color:#d3e7df;text-decoration:none;font-size:15px;font-weight:600;transition:background .18s,color .18s}.ds-nav:hover{background:#24534d;color:#fff}.ds-nav[aria-current=page]{background:var(--white,#fff);color:var(--ink,#123d3a)}.ds-nav:focus-visible{outline:3px solid var(--focus,#b5412c);outline-offset:4px}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}"
     }
   ],
   "narrative": {
     "northStar": "The Focused Workspace",
-    "overview": "The focused workspace uses deep navy for orientation, lavender for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.\n\nSystem UI typography is intentional for Operate mode, with Read behavior inside lessons. Color, borders, and spacing establish hierarchy without decorative elevation. The implementation uses inline SVG interface icons; existing PNG app icons predate this task and remain unchanged. No generated raster imagery shipped in this redesign.",
+    "overview": "Fresh Studio uses deep teal navigation, a cream workspace, mint guidance panels, and coral selected actions. Dark coral keeps small interactive text readable. The focused workspace uses deep teal for orientation, mint for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.\n\nSystem UI typography is intentional for Operate mode, with Read behavior inside lessons. Color, borders, and spacing establish hierarchy without decorative elevation. The implementation uses inline SVG interface icons; existing PNG app icons predate this task and remain unchanged. No generated raster imagery shipped in this redesign.",
     "keyCharacteristics": [
       "Persistent navigation and visible selection.",
       "Flat surfaces with tonal separation.",
@@ -283,9 +173,9 @@
       "Do use the system UI stack consistently for operational controls and reading."
     ],
     "donts": [
-      "Don’t add shadows to the current flat surface system without a deliberate design change.",
-      "Don’t use animation to delay access to a control or instruction.",
-      "Don’t present Toolkit adaptations as upstream authorship."
+      "Don\u2019t add shadows to the current flat surface system without a deliberate design change.",
+      "Don\u2019t use animation to delay access to a control or instruction.",
+      "Don\u2019t present Toolkit adaptations as upstream authorship."
     ]
   }
 }

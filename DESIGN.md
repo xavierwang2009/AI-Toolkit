@@ -2,17 +2,18 @@
 name: "Xavier’s AI Toolkit"
 description: "A focused student workspace for AI skills, projects, and lessons."
 colors:
-  ink: "#202b57"
-  muted: "#5d6579"
-  paper: "#f4f5fa"
+  coral: "#d9573b"
+  ink: "#123d3a"
+  muted: "#596861"
+  paper: "#faf8f2"
   white: "#ffffff"
-  line: "#dfe3ef"
-  purple: "#6154c7"
-  tint: "#eeebff"
-  mint: "#c9efdf"
-  selected: "#e5e0fa"
-  starter: "#e6e2fa"
-  focus: "#8a72e4"
+  line: "#dce3da"
+  accent: "#b5412c"
+  tint: "#e5f3ec"
+  mint: "#d7f3e5"
+  selected: "#d7f3e5"
+  starter: "#d7f3e5"
+  focus: "#b5412c"
 typography:
   display:
     fontFamily: "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
@@ -98,7 +99,7 @@ components:
 
 **Creative North Star: "The Focused Workspace"**
 
-The focused workspace uses deep navy for orientation, lavender for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.
+The focused workspace uses deep teal for orientation, mint for selection and guided starting points, and mint for small identity and learning cues. Its character is calm, direct, and practical: clear controls surround a generous working surface.
 
 System UI typography is intentional for Operate mode, with Read behavior inside lessons. Color, borders, and spacing establish hierarchy without decorative elevation. The implementation uses inline SVG interface icons; existing PNG app icons predate this task and remain unchanged. No generated raster imagery shipped in this redesign.
 
@@ -111,26 +112,26 @@ System UI typography is intentional for Operate mode, with Read behavior inside 
 
 ## Colors
 
-Navy anchors the interface; pale lavender and mint soften the working environment without competing with the content. The frontmatter records the implemented values.
+Navy anchors the interface; pale mint and mint soften the working environment without competing with the content. The frontmatter records the implemented values.
 
 ### Primary
-- **Deep Navy** (`ink`): navigation rail, main text, selected intent, active filters, and primary actions.
-- **Clear Purple** (`purple`): headline emphasis, active lesson tabs, and hover emphasis.
+- **Deep Teal** (`ink`): navigation rail, main text, selected intent, active filters, and primary actions.
+- **Coral Text** (`purple`): headline emphasis, active lesson tabs, and hover emphasis.
 
 ### Secondary
-- **Lavender Wash** (`tint`): level badges and mobile navigation selection.
-- **Selected Lavender** (`selected`): the current collection item.
-- **Starter Lavender** (`starter`): the live suggested-next-move surface.
+- **Mint Wash** (`tint`): level badges and mobile navigation selection.
+- **Selected Mint** (`selected`): the current collection item.
+- **Starter Mint** (`starter`): the live suggested-next-move surface.
 
 ### Tertiary
 - **Soft Mint** (`mint`): the initial mark. Related green surfaces identify Explorer levels and practical exercises.
 
 ### Neutral
-- **Cool Paper** (`paper`): application background and prompt blocks.
+- **Warm Cream** (`paper`): application background and prompt blocks.
 - **Working White** (`white`): reading/detail surfaces and active desktop navigation.
 - **Slate Text** (`muted`): supporting copy and metadata.
-- **Cool Divider** (`line`): input borders, panel outlines, and separators.
-- **Focus Violet** (`focus`): keyboard focus outlines.
+- **Soft Divider** (`line`): input borders, panel outlines, and separators.
+- **Focus Coral** (`focus`): keyboard focus outlines.
 
 ## Typography
 
@@ -158,7 +159,7 @@ The current content inventory is 10 skills, 3 projects, and 6 attributed lessons
 
 ## Elevation & Depth
 
-There are no box shadows in the current system. White detail panels, lavender selections, navy controls, and fine borders separate layers. Toasts sit above the workspace through positioning, not a shadow treatment.
+There are no box shadows in the current system. White detail panels, mint selections, navy controls, and fine borders separate layers. Toasts sit above the workspace through positioning, not a shadow treatment.
 
 ## Shapes
 
@@ -172,11 +173,11 @@ Direct, legible controls. Primary buttons use navy with white text and darken to
 
 ### Chips
 
-Level badges are descriptive: Builder uses lavender, Explorer green, and Innovator amber. Experience filters are buttons with a navy selected state and `aria-pressed`; inactive filters remain transparent. These have distinct roles even where their compact shapes are similar.
+Level badges are descriptive: Builder uses mint, Explorer green, and Innovator amber. Experience filters are buttons with a navy selected state and `aria-pressed`; inactive filters remain transparent. These have distinct roles even where their compact shapes are similar.
 
 ### Cards / Containers
 
-Detail panels use white, a fine border, and generous internal padding. Prompt blocks use Cool Paper with preserved line breaks. Green exercise boxes separate concrete tasks from lesson explanation. No hover lift is applied to these reading surfaces.
+Detail panels use white, a fine border, and generous internal padding. Prompt blocks use Warm Cream with preserved line breaks. Green exercise boxes separate concrete tasks from lesson explanation. No hover lift is applied to these reading surfaces.
 
 ### Inputs / Fields
 
@@ -184,11 +185,11 @@ Search uses a white background, divider border, rounded corners, and purple care
 
 ### Navigation
 
-Desktop links use subdued blue-white text on navy, with white active backgrounds and navy active text. Mobile links stack icon and label on white; lavender identifies the active destination. Current pages use `aria-current`. Collection items use lavender selection, a subtle outline, and `aria-pressed`. Lessons and project steps use a purple underline for the active segment.
+Desktop links use subdued blue-white text on navy, with white active backgrounds and navy active text. Mobile links stack icon and label on white; mint identifies the active destination. Current pages use `aria-current`. Collection items use mint selection, a subtle outline, and `aria-pressed`. Lessons and project steps use a purple underline for the active segment.
 
 ### Suggested Next Move
 
-Three intent buttons update a lavender preview with a title, concise explanation, three-step sequence, and a direct link into the relevant skill. Selected intent is navy. Inline SVG symbols use consistent rounded strokes.
+Three intent buttons update a mint preview with a title, concise explanation, three-step sequence, and a direct link into the relevant skill. Selected intent is navy. Inline SVG symbols use consistent rounded strokes.
 
 ### Motion and Feedback
 
