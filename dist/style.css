@@ -33,3 +33,5 @@
 .motion-paused *,.page-hidden *,.page-hidden *:before{animation-play-state:paused!important}
 @media(max-width:760px){.motion-scene{width:80px;height:72px}.starter-top{min-height:72px}.starter-symbol{width:46px;height:46px}.starter-symbol svg{width:25px;height:25px}.orbit{width:70px;height:56px}.orbit-two{width:54px;height:70px}.intent-label{flex-direction:column;align-items:flex-start;gap:6px}.intent-label svg{display:block;width:19px;height:19px}.intent{min-height:78px}}
 @media(prefers-reduced-motion:reduce){#motion:before{background:#596861}}
+
+.prompt-options{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.prompt-options .filter{border:1px solid var(--line);padding:10px 14px}.prompt-options+.note{margin-top:10px}
